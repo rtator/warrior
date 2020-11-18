@@ -39,6 +39,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             . . . . . f f f . . . . . 
             `)
     } else {
+        music.baDing.play()
         mySprite.setImage(img`
             .......ff...........
             ....ffff2ff.........
